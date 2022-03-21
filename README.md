@@ -3,6 +3,7 @@
 Not really, but a good app for learning basic unit and integration testing with Jest/React Testing Library.
 
 ## Todo
+* Add tests for Chuck button functionality
 * Add API error handling and tests
 * Refactor with Typescript
 
