@@ -16,7 +16,9 @@ export const Chuck = () => {
   return (
     <div className="Chuck-Container">
       <h2>Chuck Facts!</h2>
-      {!chuckFact ? <h3>Hang on, gettin' some Chuck!</h3> :  <h3>{chuckFact.value}</h3>}
+      <span data-testid="chuckFact-container">
+        {!chuckFact ? <h3>Hang on, gettin' some Chuck!</h3> :  <h3>{chuckFact.value}</h3>}
+      </span>
       <button onClick={() => getNewFact()}>Gimme a Chuck fact!</button>
     </div>
   )
