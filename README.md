@@ -2,6 +2,10 @@
 
 Not really, but a good app for learning basic unit and integration testing with Jest/React Testing Library.
 
+## Todo
+* Write tests for Chuck facts api calls
+* Refactor with Typescript
+
 ## Running the app
 1. Clone to local drive
 2. Install dependancies   <br>`npm install`
