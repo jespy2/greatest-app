@@ -4,7 +4,7 @@ import { rest } from 'msw';
 import { setupServer } from 'msw/node';
 import '@testing-library/jest-dom';
 import { URI } from '../services/chuckApi';
-import { singleChuck } from '../fixtures/Fact';
+import { initialChuck, reloadChuck } from '../fixtures/Fact';
 import App from '../App';
 
 // declare which API requests to mock
@@ -12,7 +12,7 @@ const server = setupServer(
   // capture "GET /greeting" requests
   rest.get(URI, (req, res, ctx) => {
     // respond using a mocked JSON body
-    return res(ctx.json(singleChuck))
+    return res(ctx.json(initialChuck))
   }),
 )
 

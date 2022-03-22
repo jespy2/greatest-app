@@ -4,7 +4,7 @@ Not really, but a good app for learning basic unit and integration testing with 
 
 ## Todo
 * Add tests for Chuck button functionality
-* Add API error handling and tests
+* Add API error handling tests
 * Refactor with Typescript
 
 ## Running the app
