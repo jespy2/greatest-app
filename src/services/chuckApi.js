@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-export const URI = 'https://api.chucknorris.io/jokes/random';
+export const URI = 'https://api.chucknorris.io/jokes/random?category=dev';
 
 export const getChuckFact = () => {
   return axios

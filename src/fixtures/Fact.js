@@ -11,3 +11,5 @@ export const emptyChuck = {
   "url": "",
   "value": ""
 };
+
+// When he jumps into a pool, Chuck Norris doesnt get wet, the water gets Chuck Norris
